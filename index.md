@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## About the course
 
-You can use the [editor on GitHub](https://github.com/bittlingmayer/nlp-intro-course/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am teaching the natural language processing, as a one-week section of a four-month course on machine learning for engineers and mathematicians.  The goal is to teach a mix of theory and practical know-how.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It's earth year 2017, and the field is changing faster than usual.  The first lecture gives some background on the ideas of the 1990s and 2000s, but the code for some of the projects will probably not compile in a year.
 
 ### Markdown
 
