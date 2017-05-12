@@ -1,8 +1,12 @@
 ### About the course
 
-I am teaching the natural language processing, as a one-week section of a four-month course on machine learning for engineers and mathematicians.  The goal is to teach a mix of theory and practical know-how.
+I am teaching the , as a one-week section on natural language processing as part of a four-month course on machine learning for engineers and mathematicians.  The goal is to teach a mix of theory and practical know-how.
 
 It's earth year 2017, and the field is changing faster than usual.  The first lecture gives some background on the ideas of the 1990s and 2000s, but the code for some of the projects will probably not compile in a year.
+
+Prerequisites: machine learning basics, prerequisites for machine learning basics (python, git, pip, virtualenv, mathematics...) and 2+ natural languages and 2+ scripts
+
+System requirements: prerequisites for machine learning basics (ideally Unix-based with python3, but GPU not required)
 
 ## Day 1: NLP Background
 
@@ -24,7 +28,8 @@ Supplementary reading: watch [Lecture 1 from Stanford's *Natural Language Proces
 ### Homework:
 spaCy
 
-Supplementary reading: read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)
+Supplementary reading: watch Hugo LaRochelle's *Neural networks* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM
+) [10.6](https://www.youtube.com/watch?v=FoDz01QNSiY), read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)
 
 ### Markdown
 
@@ -64,6 +69,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### More reading
 
-https://www.youtube.com/watch?v=OzZIOiMVUyM
+https://www.youtube.com/watch?v=OzZIOiMVUyM to 
 
 https://nlp.stanford.edu/IR-book/
