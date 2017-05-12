@@ -1,6 +1,6 @@
 ### About the course
 
-I am teaching the , as a one-week section on natural language processing as part of a four-month course on machine learning for engineers and mathematicians.  The goal is to teach a mix of theory and practical know-how.
+I am teaching a one-week section on natural language processing as part of a four-month course on machine learning for engineers and mathematicians.  The goal is to teach a mix of theory and practical know-how.
 
 It's earth year 2017, and the field is changing faster than usual.  The first lecture gives some background on the ideas of the 1990s and 2000s, but the code for some of the projects will probably not compile in a year.
 
