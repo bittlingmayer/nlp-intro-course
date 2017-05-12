@@ -16,7 +16,7 @@ We cover the language of language: anaphora, BLEU, canonicalisation, grammars, l
 ### Homework:
 Increase the accuracy of Peter Norvig's classic [spelling corrector in half a page of code](http://norvig.com/spell-correct.html) without hurting performance too much.
 
-Some supplementary reading: [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ), understand the title of each chapter of [https://nlp.stanford.edu/fsnlp/](Foundations of Statistical Natural Language Processing).
+Supplementary reading: watch [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ), understand the title of each chapter of [https://nlp.stanford.edu/fsnlp/](Foundations of Statistical Natural Language Processing).
 
 ## Day 2: Deep Learning for NLP
 
@@ -24,7 +24,7 @@ Some supplementary reading: [Lecture 1 from Stanford's *Natural Language Process
 ### Homework:
 spaCy
 
-Supplementary reading: [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)
+Supplementary reading: read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)
 
 ### Markdown
 
