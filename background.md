@@ -15,7 +15,7 @@ We cover the language of language:
 
 Slides [coming soon]
 
-### Lab:
+### Lab
 Increase the accuracy of Peter Norvig's classic [spelling corrector in half a page of code](http://norvig.com/spell-correct.html) without hurting performance too much.
 
 Change the cost function, use context, use the subword level, preprocess, add more data...
