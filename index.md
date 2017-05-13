@@ -1,16 +1,11 @@
 
 ### About the course
 
-I am teaching a one-week section on natural language processing as part of a four-month course on machine learning for engineers and mathematicians.  The goal is to teach a mix of theory and practical know-how.
+I am teaching natural language processing in one intense week to talented engineers and mathematicians.
 
-It's earth year 2017, and the field is changing faster than usual.  The first lecture gives some background on the ideas of the 1990s and 2000s, but the code for some of the projects will probably not compile in a year.
+The goal is just enough theory, literacy and hands-on experience to work with natural language in industry.
 
-Prerequisites: machine learning basics, prerequisites for machine learning basics (python, git, pip, virtualenv, mathematics...) and 2+ natural languages and 2+ scripts
-
-System requirements: prerequisites for machine learning basics (ideally Unix-based with python3, but GPU not required)
-
-Questions?  Open an [issue](https://github.com/bittlingmayer/nlp-intro-course/issues) or ping nlp-intro-course@bittlingmayer.org.
-
+[Read more](/about)
 
 ## Day 1: Background
 
@@ -45,8 +40,12 @@ Supplementary reading: watch Hugo LaRochelle's *Neural networks* [10.1](https://
 
 ## Day 3: Conversational
 
-Dialogue systems ("chat bots", "conversational AI")...
+Dialogue systems ("chat bots", "conversational AI") ...
+
+[>>](/conversational)
 
 ## More Resources
 
-Links to more NLP tools, datasets, reading, groups and news [here](here)
+Links to more NLP tools, datasets, reading, groups and news
+
+[>>](/resources)
