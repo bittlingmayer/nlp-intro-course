@@ -12,7 +12,7 @@ System requirements: prerequisites for machine learning basics (ideally Unix-bas
 Questions?  Open an [issue](https://github.com/bittlingmayer/nlp-intro-course/issues) or ping nlp-intro-course@bittlingmayer.org.
 
 
-## Day 1: Background of Natural Language Processing
+## Day 1: Background
 
 ### Lecture 1
 
@@ -29,7 +29,7 @@ Watch [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning
 Understand the title of each chapter of [Foundations of Statistical Natural Language Processing](https://nlp.stanford.edu/fsnlp/)  
 Try to understand [how `str` works in python 3](https://docs.python.org/3/howto/unicode.html#python-s-unicode-support)
 
-## Day 2: Deep Learning for NLP
+## Day 2: Deep Learning
 
 ### Lecture 1
 Motivation for deep learning, trade-offs of preprocessing, autoencoders and word embeddings, doc vectors vs word vectors vs char vectors, comparison to old-school techniques like TF-IDF and LSA
@@ -43,7 +43,7 @@ spaCy
 ### More
 Supplementary reading: watch Hugo LaRochelle's *Neural networks* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=79)... [10.6](https://www.youtube.com/watch?v=FoDz01QNSiY&index=84&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)
 
-## Day 3: Natural Language Understanding and Generation
+## Day 3: Understanding and Generation
 
 
 
