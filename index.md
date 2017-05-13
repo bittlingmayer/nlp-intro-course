@@ -9,7 +9,7 @@ The goal is just enough theory, literacy and hands-on experience to attack natur
 
 [Read more](/nlp-intro-course/about)
 
-## 1: Background
+## 1. Background
 
 Lectures: What is NLP, what is the motivation, why is it hard?
 
@@ -17,7 +17,7 @@ Lab: Set up your environment, build a simple but effective spelling corrector
 
 [Start](/nlp-intro-course/background)
 
-## 2: Deep Learning
+## 2. Deep Learning
 
 Lectures:
 
@@ -26,13 +26,13 @@ Lab: Word vectors with spaCy
 [Start](/nlp-intro-course/deep-learning)
 
 
-## 3: Conversational
+## 3. Conversation
 
 Lectures: 
 
 Lab: 
 
-[Start](/nlp-intro-course/conversational)
+[Start](/nlp-intro-course/conversation)
 
 ## More
 
