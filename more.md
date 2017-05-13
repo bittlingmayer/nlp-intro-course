@@ -1,5 +1,7 @@
 
-More resources for building and learning:
+Here are more resources for building and learning.
+
+## Build
 
 ### Libraries and Services
 
@@ -10,8 +12,6 @@ If you need to deal with more languages than English, the choices will be more c
 All of the below are in python or have a python client unless otherwise marked.
 
 There are third-party python wrappers for most popular C/C++ and Java libraries.
-
-## Build
 
 #### Parsers
 
