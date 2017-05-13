@@ -4,14 +4,13 @@
 
 What problems are considered NLP, what the motivation is, why language is hard, why humans are good at it, what structure and mathematical properties language has, why rules-based doesn't scale, what is solved, what is unsolved, what is unsolvable…
 
-Beyond English: multi-lingual problems.
-
 Slides [coming soon]
 
 ### Lecture 2
-We cover the language of language:
 
-> anaphora, BLEU, canonicalisation, grammars, lemmatisation, n-grams, parallel corpora, segmentation, tokenisation, Zipf's law...
+Non-English, non-Latin script and multilingual problems.  What is different about NLP for English?
+
+The language of language: anaphora, BLEU, canonicalisation, grammars, lemmatisation, n-grams, parallel corpora, segmentation, tokenisation, Zipf's law...
 
 Slides [coming soon]
 
