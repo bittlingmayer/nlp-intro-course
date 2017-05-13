@@ -9,7 +9,7 @@ The goal is just enough theory, literacy and hands-on experience to attack natur
 
 [Read more](/about)
 
-## Day 1: Background
+## 1: Background
 
 Lectures: What is NLP, what is the motivation, why is it hard?
 
@@ -17,7 +17,7 @@ Lab: Set up your environment, build a simple but effective spelling corrector
 
 [Start](/background)
 
-## Day 2: Deep Learning
+## 2: Deep Learning
 
 Lectures:
 
@@ -26,11 +26,11 @@ Lab: Word vectors with spaCy
 [Start](/deep-learning)
 
 
-## Day 3: Conversational
+## 3: Conversational
 
-Lectures: Dialogue systems ("chat bots", "conversational AI")...
+Lectures: 
 
-Lab:
+Lab: 
 
 [Start](/conversational)
 
@@ -38,7 +38,7 @@ Lab:
 
 Want to keep playing?
 
-Here are some fun and educating tutorials for key concepts.  With datasets.
+Here are good tutorials for key concepts.  And datasets.
 
 [Start](projects).
 
