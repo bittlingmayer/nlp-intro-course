@@ -34,16 +34,8 @@ Lab:
 
 [Start](/conversational)
 
-## Day n
+## More
 
-Want to keep playing?
+Links to more NLP tools, reading, groups and news
 
-Here are good tutorials for key concepts.  And datasets.
-
-[Start](projects).
-
-## More Resources
-
-Links to more NLP tools, datasets, reading, groups and news
-
-[Read more](/resources)
+[Read more](/more)
