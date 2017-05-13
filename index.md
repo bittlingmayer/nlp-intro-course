@@ -1,5 +1,5 @@
 
-### About the course
+## About the course
 
 I am teaching the basics of **natural language processing in one intense week**.
 
@@ -9,15 +9,15 @@ The goal is just enough theory, literacy and hands-on experience to attack natur
 
 [Read more](/nlp-intro-course/about)
 
-## 1. Background
+# 1. Background
 
-Lectures: What is NLP, what is the motivation, why is it hard?
+Lectures: What is NLP, what is the motivation, why is it hard?  Non-English and multilingual.  Terminology.
 
 Lab: Set up your environment, build a simple but effective spelling corrector
 
 [Start](/nlp-intro-course/background)
 
-## 2. Deep Learning
+# 2. Deep Learning
 
 Lectures:
 
@@ -26,7 +26,7 @@ Lab: Word vectors with spaCy
 [Start](/nlp-intro-course/deep-learning)
 
 
-## 3. Conversation
+# 3. Conversation
 
 Lectures: 
 
@@ -34,7 +34,7 @@ Lab:
 
 [Start](/nlp-intro-course/conversation)
 
-## More
+# More
 
 Links to more NLP tools, courses, tutorials, datasets, reading, groups and news
 
