@@ -1,42 +1,49 @@
 
 ### About the course
 
-I am teaching natural language processing in one intense week to talented engineers and mathematicians.
+I am teaching the basics of **natural language processing in one intense week**.
 
-The goal is just enough theory, literacy and hands-on experience to work with natural language in industry.
+The students are talented software engineers and coding mathematicians who know general machine learning.
+
+The goal is just enough theory, literacy and hands-on experience to attack natural language problems at work.
 
 [Read more](/about)
 
 ## Day 1: Background
 
-What is NLP, what is the motivation, why is it hard?
+Lectures: What is NLP, what is the motivation, why is it hard?
 
-Get your environment set up and try out a spelling corrector written in half a page of python.
+Lab: Set up your environment, build a simple but effective spelling corrector
 
-[Read more](/background)
+[Start](/background)
 
 ## Day 2: Deep Learning
 
-### Lecture 1
-Motivation for deep learning, trade-offs of preprocessing, autoencoders and word embeddings, doc vectors vs word vectors vs char vectors, comparison to old-school techniques like TF-IDF and LSA
+Lectures:
 
-### Lecture 2
-Generating data
+Lab: Word vectors with spaCy
 
-### Lab
-spaCy
+[Start](/deep-learning)
 
-### More
-Supplementary reading: watch Hugo LaRochelle's *Neural networks* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=79)... [10.6](https://www.youtube.com/watch?v=FoDz01QNSiY&index=84&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)
 
 ## Day 3: Conversational
 
-Dialogue systems ("chat bots", "conversational AI") ...
+Lectures: Dialogue systems ("chat bots", "conversational AI")...
 
-[>>](/conversational)
+Lab:
+
+[Start](/conversational)
+
+## Day n
+
+Want to keep playing?
+
+Here are some fun and educating tutorials for key concepts.  With datasets.
+
+[Start](projects).
 
 ## More Resources
 
 Links to more NLP tools, datasets, reading, groups and news
 
-[>>](/resources)
+[Read more](/resources)
