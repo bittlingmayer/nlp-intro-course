@@ -1,15 +1,17 @@
 
-More resources for learning and building natural language processing:  
+More resources for building and learning:
 
 ### Libraries and Services
 
-NLTK has a lot of legacy and momentum, and support for many languages.
+NLTK has a lot of legacy and momentum, and supports many languages, but it is a bit heavyweight.
 
 If you need to deal with more languages than English, the choices will be more complex.
 
 All of the below are in python or have a python client unless otherwise marked.
 
 There are third-party python wrappers for most popular C/C++ and Java libraries.
+
+## Build
 
 #### Parsers
 
@@ -37,21 +39,56 @@ https://github.com/facebookresearch/ParlAI
 https://github.com/stanfordnlp/cocoa
 seq2seq
 
-### Reading
+## Learn
+
+### Reading and Courses
 
 Hugo LaRochelle's [*Neural networks [10] Natural language processing* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=79)
 
+### Courses
 [*Introduction to Information Retrieval*](https://nlp.stanford.edu/IR-book/) on search not natural language per se
 
 ### Institutions
 
 Aachen, Edinburgh, Sheffield, http://nlp.shef.ac.uk/
 
+### Tutorials
+Here are some tutorials for simple but powerful concepts.
+
+They link to useful datasets.
+
+http://norvig.com/spell-correct.html
+
+https://blog.twitter.com/2015/evaluating-language-identification-performance
+
+http://atpaino.com/2017/01/03/deep-text-correcter.html
+
+https://google.github.io/seq2seq/nmt/
+
+https://medium.com/redsift-outbox/hillary-emails-not-just-useful-for-winning-elections-5bdb10c75252  
+https://medium.com/redsift-outbox/what-time-cc9ce0c2aed2
+
+### Datasets
+
+http://www.statmt.org/, eg http://www.statmt.org/wmt17/
+
+https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#Text_data
+
+https://opendata.stackexchange.com
+
+[Facebook pre-trained word vectors for fastText](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md) for 294 languages
+
+[Facebook user names](https://wiki.skullsecurity.org/Passwords#Facebook_lists)
+
+Wikipedia dumps, Open Subtitles, WSJ data, Enron emails, Hillary email, Hacker news archives...
+
 ### Conferences
 
 ACL, EMNLP, NAACL and CoNLL
 
-### Fora and News
+## Follow and Ask
+
+News and fora:  
 
 Reddit: r/LanguageTechnology, r/textdatamining, r/MachineLearning
 
