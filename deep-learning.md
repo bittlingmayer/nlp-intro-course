@@ -18,5 +18,8 @@ Watch Hugo LaRochelle's *Neural networks* [10.1](https://www.youtube.com/watch?v
 
 In which area of NLP has deep learning had the most impact as of mid-2017?
 
-Should you lowercase and remove punctuation from your dataset before training?
+Should we lowercase and remove punctuation from our dataset before training?
 
+What is Google SentencePiece for?
+
+How many rows of data do we need for tasks like spelling correction or translation?
