@@ -7,7 +7,7 @@ The students are talented software engineers and coding mathematicians who know 
 
 The goal is just enough theory, literacy and hands-on experience to attack natural language problems at work.
 
-[Read more](/about)
+[Read more](/nlp-intro-course/about)
 
 ## 1: Background
 
@@ -15,7 +15,7 @@ Lectures: What is NLP, what is the motivation, why is it hard?
 
 Lab: Set up your environment, build a simple but effective spelling corrector
 
-[Start](/background)
+[Start](/nlp-intro-course/background)
 
 ## 2: Deep Learning
 
@@ -23,7 +23,7 @@ Lectures:
 
 Lab: Word vectors with spaCy
 
-[Start](/deep-learning)
+[Start](/nlp-intro-course/deep-learning)
 
 
 ## 3: Conversational
@@ -32,10 +32,10 @@ Lectures:
 
 Lab: 
 
-[Start](/conversational)
+[Start](/nlp-intro-course/conversational)
 
 ## More
 
-Links to more NLP tools, reading, groups and news
+Links to more NLP tools, courses, tutorials, datasets, reading, groups and news
 
-[Read more](/more)
+[Read more](/nlp-intro-course/more)
