@@ -63,6 +63,8 @@ https://blog.twitter.com/2015/evaluating-language-identification-performance
 
 http://atpaino.com/2017/01/03/deep-text-correcter.html
 
+https://explosion.ai/blog/spacy-deep-learning-keras
+
 https://google.github.io/seq2seq/nmt/
 
 https://medium.com/redsift-outbox/hillary-emails-not-just-useful-for-winning-elections-5bdb10c75252  
