@@ -30,4 +30,4 @@ Try to understand [how `str` works in python 3](https://docs.python.org/3/howto/
 
 Play with the [displaCy](https://demos.explosion.ai/displacy/) parsing visualisation
 
-Read [Norvig vs Chomsky](http://norvig.com/chomsky.html) with as good drink
+Read [Norvig vs Chomsky](http://norvig.com/chomsky.html) with a good drink
