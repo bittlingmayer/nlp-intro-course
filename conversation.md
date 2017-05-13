@@ -1,18 +1,16 @@
 # 3. Conversation
 
-Dialogue systems ("chat bots", "conversational AI") are typically a trade-off between quality and coverage.
-
-To be effective they must maintain state and context and set realistic user expectations.
+Building dialogue systems - "voice UI", "chat bots", "conversational AI", "intelligent virtual assistants" etc - based on natural language understanding.
 
 ## Lecture 1
 
-[coming soon]
+Quality vs coverage, context representation, seq2seq, human-in-the-loop
 
 Slides [coming soon]
 
 ## Lecture 2
 
-[coming soon]
+Datasets, code and APIs from Facebook, Amazon, Microsoft and Google
 
 Slides [coming soon]
 
