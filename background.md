@@ -11,12 +11,14 @@ Slides [coming soon]
 ### Lecture 2
 We cover the language of language:
 
-anaphora, BLEU, canonicalisation, grammars, lemmatisation, n-grams, parallel corpora, segmentation, tokenisation, Zipf's law...
+> anaphora, BLEU, canonicalisation, grammars, lemmatisation, n-grams, parallel corpora, segmentation, tokenisation, Zipf's law...
 
 Slides [coming soon]
 
 ### Lab:
 Increase the accuracy of Peter Norvig's classic [spelling corrector in half a page of code](http://norvig.com/spell-correct.html) without hurting performance too much.
+
+Use spaCy, add more data or prep
 
 ### More
 
@@ -27,3 +29,5 @@ Understand the title of each chapter of [Foundations of Statistical Natural Lang
 Try to understand [how `str` works in python 3](https://docs.python.org/3/howto/unicode.html#python-s-unicode-support)  
 
 Play with the [displaCy](https://demos.explosion.ai/displacy/) parsing visualisation
+
+Read [Norvig vs Chomsky](http://norvig.com/chomsky.html) with as good drink
