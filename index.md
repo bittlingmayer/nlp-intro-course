@@ -1,3 +1,4 @@
+
 ### About the course
 
 I am teaching a one-week section on natural language processing as part of a four-month course on machine learning for engineers and mathematicians.  The goal is to teach a mix of theory and practical know-how.
@@ -9,6 +10,7 @@ Prerequisites: machine learning basics, prerequisites for machine learning basic
 System requirements: prerequisites for machine learning basics (ideally Unix-based with python3, but GPU not required)
 
 Questions?  Open an [issue](https://github.com/bittlingmayer/nlp-intro-course/issues) or ping nlp-intro-course@bittlingmayer.org.
+
 
 ## Day 1: Background of Natural Language Processing
 
@@ -23,11 +25,9 @@ We cover the language of language: anaphora, BLEU, canonicalisation, grammars, l
 Increase the accuracy of Peter Norvig's classic [spelling corrector in half a page of code](http://norvig.com/spell-correct.html) without hurting performance too much.
 
 ### More
-Watch [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ), and understand the title of each chapter of [Foundations of Statistical Natural Language Processing](https://nlp.stanford.edu/fsnlp/)
-
-Libraries to know: NLTK
-
-It also pays to understand how python3 handles strings.
+Watch [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
+Understand the title of each chapter of [Foundations of Statistical Natural Language Processing](https://nlp.stanford.edu/fsnlp/)  
+Try to understand [how `str` works in python 3](https://docs.python.org/3/howto/unicode.html#python-s-unicode-support)
 
 ## Day 2: Deep Learning for NLP
 
