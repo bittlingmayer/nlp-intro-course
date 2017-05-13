@@ -15,4 +15,10 @@ https://google.github.io/seq2seq/nmt/
 
 https://wiki.skullsecurity.org/Passwords#Facebook_lists
 
-See also: https://opendata.stackexchange.com
+See also: 
+
+https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#Text_data
+
+https://opendata.stackexchange.com
+
+
