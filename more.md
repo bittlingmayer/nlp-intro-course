@@ -61,6 +61,8 @@ http://norvig.com/spell-correct.html
 
 https://blog.twitter.com/2015/evaluating-language-identification-performance
 
+http://yerevann.github.io/2016/09/09/automatic-transliteration-with-lstm/
+
 http://atpaino.com/2017/01/03/deep-text-correcter.html
 
 https://explosion.ai/blog/spacy-deep-learning-keras
