@@ -1,4 +1,4 @@
-## 1. Background
+# 1. Background
 
 ### Lecture 1
 
