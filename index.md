@@ -104,6 +104,11 @@ FaceBook fastText | python
 Indico.io API | many languages
 Google Cloud Natural Language API | many languages
 
+#### Conversational
+https://github.com/facebookresearch/ParlAI
+https://github.com/stanfordnlp/cocoa
+seq2seq
+
 ### Reading
 
 Hugo LaRochelle's [*Neural networks [10] Natural language processing* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=79)
@@ -118,5 +123,11 @@ Aachen, Edinburgh, Sheffield, http://nlp.shef.ac.uk/
 
 ACL, EMNLP, NAACL and CoNLL
 
-### News
-#NLProc, r/LanguageTechnology, @stanfordnlp
+### Fora and News
+
+Reddit: r/LanguageTechnology, r/textdatamining, r/MachineLearning
+
+StackExchange: [datascience](https://datascience.stackexchange.com), [lingistics](https://linguistics.stackexchange.com), [stats](https://stats.stackexchange.com) with tags natural-language, nlp, parsing etc.
+
+Twitter: #NLProc, @stanfordnlp, @acl2017
+
