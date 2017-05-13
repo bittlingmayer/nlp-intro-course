@@ -10,6 +10,9 @@ http://atpaino.com/2017/01/03/deep-text-correcter.html
 
 https://google.github.io/seq2seq/nmt/
 
+https://medium.com/redsift-outbox/hillary-emails-not-just-useful-for-winning-elections-5bdb10c75252  
+https://medium.com/redsift-outbox/what-time-cc9ce0c2aed2
+
 
 ### Datasets
 
