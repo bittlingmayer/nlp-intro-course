@@ -35,7 +35,7 @@ FaceBook fastText | python
 Indico.io API | many languages  
 Google Cloud Natural Language API | many languages
 
-#### Conversational
+#### Dialogue
 https://github.com/facebookresearch/ParlAI  
 https://github.com/stanfordnlp/cocoa  
 seq2seq
@@ -103,3 +103,7 @@ Reddit: r/LanguageTechnology, r/textdatamining, r/MachineLearning
 StackExchange: [datascience](https://datascience.stackexchange.com), [lingistics](https://linguistics.stackexchange.com), [stats](https://stats.stackexchange.com) with tags natural-language, nlp, parsing etc.
 
 Twitter: #NLProc, @stanfordnlp, @acl2017
+
+## Feuilleton
+
+https://medium.com/@beweinreich/two-years-spamming-spammers-back-2e734ce9593c
