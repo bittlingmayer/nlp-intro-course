@@ -102,7 +102,7 @@ Reddit: r/LanguageTechnology, r/textdatamining, r/MachineLearning
 
 StackExchange: [datascience](https://datascience.stackexchange.com), [lingistics](https://linguistics.stackexchange.com), [stats](https://stats.stackexchange.com) with tags natural-language, nlp, parsing etc.
 
-Twitter: #NLProc, @stanfordnlp, @acl2017
+Twitter: #NLProc, @stanfordnlp, @uwnlp, @acl2017, @emnlp2017
 
 ## Feuilleton
 
