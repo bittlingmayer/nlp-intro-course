@@ -20,23 +20,24 @@ These parsing libs also do tokenisation, named-entity recognition and so on.
 spaCy | python  
 Stanford CoreNLP | Java  
 Google SyntaxNet | python  
-Google Cloud Natural Language API | many languages
+Google Cloud Natural Language API | many languages  
 
 See also: [Universal POS tags](http://universaldependencies.org/u/pos/index.html)
 
 #### Word Embedding
-Avoid training your own word embeddings if possible.  Facebook has released pre-trained word embeddings for hundreds of languages.  Parsing libs like spaCy also expose word vectors.
+Avoid training your own word embeddings if possible.  Facebook has released pre-trained word embeddings for hundreds of languages.  Parsing libs like spaCy also expose word vectors.  
+
 gensim for Mikolov's word2vec  
-Stanford gloVe | C
-FaceBook fastText | python
+Stanford gloVe | C  
+FaceBook fastText | python  
 
 #### Sentiment Analysis
-Indico.io API | many languages
+Indico.io API | many languages  
 Google Cloud Natural Language API | many languages
 
 #### Conversational
-https://github.com/facebookresearch/ParlAI
-https://github.com/stanfordnlp/cocoa
+https://github.com/facebookresearch/ParlAI  
+https://github.com/stanfordnlp/cocoa  
 seq2seq
 
 ## Learn
@@ -67,10 +68,13 @@ http://atpaino.com/2017/01/03/deep-text-correcter.html
 
 https://explosion.ai/blog/spacy-deep-learning-keras
 
-https://google.github.io/seq2seq/nmt/
+https://explosion.ai/blog/quora-deep-text-pair-classification  
+https://explosion.ai/blog/supervised-similarity-siamese-cnn
 
 https://medium.com/redsift-outbox/hillary-emails-not-just-useful-for-winning-elections-5bdb10c75252  
 https://medium.com/redsift-outbox/what-time-cc9ce0c2aed2
+
+https://google.github.io/seq2seq/nmt/
 
 ### Datasets
 
