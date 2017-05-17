@@ -12,7 +12,7 @@ Non-English, non-Latin script and multilingual problems.  What is different abou
 
 The language of language: anaphora, BLEU, canonicalisation, grammars, lemmatisation, n-grams, parallel corpora, segmentation, tokenisation, Zipf's law...
 
-Slides [coming soon]
+[Slides](https://docs.google.com/presentation/d/1_m43ckMWY5PDyo1oPPG5SyLkI-pF7wDfnCwTqoeHAiI/edit?usp=sharing)
 
 ## Lab
 Increase the accuracy of Peter Norvig's classic [spelling corrector in half a page of code](http://norvig.com/spell-correct.html) without hurting performance too much.
