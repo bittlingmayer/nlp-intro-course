@@ -4,7 +4,7 @@
 
 What problems are considered NLP, what the motivation is, why language is hard, why humans are good at it, what structure and mathematical properties language has, why rules-based doesn't scale, what is solved, what is unsolved, what is unsolvable…
 
-Slides [coming soon]
+[Slides](https://docs.google.com/presentation/d/1PFiCfZj1OwgRlZRMAew91Q-gwkPe0z0jqBRabwqO9ik/edit?usp=sharing)
 
 ## Lecture 2
 
