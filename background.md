@@ -21,7 +21,9 @@ Change the cost function, use context, use the subword level, preprocess, add mo
 
 ## More
 
-Watch [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
+Read [*double articulation*](https://en.wikipedia.org/wiki/Double_articulation)
+
+Watch the first part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
 
 Understand the title of each chapter of [Foundations of Statistical Natural Language Processing](https://nlp.stanford.edu/fsnlp/)  
 
@@ -30,3 +32,4 @@ Try to understand [how `str` works in python 3](https://docs.python.org/3/howto/
 Play with the [displaCy](https://demos.explosion.ai/displacy/) parsing visualisation
 
 Read [Norvig vs Chomsky](http://norvig.com/chomsky.html) with a good drink
+
