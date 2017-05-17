@@ -11,6 +11,7 @@ Generating and augmenting data for speech recognition, translit, and grammar cor
 spaCy
 
 ## More
+Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
 Read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)  
 Watch Hugo LaRochelle's *Neural networks* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=79)... [10.6](https://www.youtube.com/watch?v=FoDz01QNSiY&index=84&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
 
