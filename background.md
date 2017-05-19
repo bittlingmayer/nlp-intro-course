@@ -17,6 +17,8 @@ The language of language: anaphora, BLEU, canonicalisation, grammars, lemmatisat
 ## Lab
 Increase the accuracy of Peter Norvig's classic [spelling corrector in half a page of code](http://norvig.com/spell-correct.html) without hurting performance too much.
 
+Here's [the code](https://gist.github.com/bittlingmayer/568c04604efff73dbe2c6140c7c87a72).
+
 Change the cost function, use context, use the subword level, preprocess, add more data...
 
 ## More
