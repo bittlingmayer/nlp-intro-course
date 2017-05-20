@@ -15,6 +15,12 @@ Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing
 Read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)  
 Watch Hugo LaRochelle's *Neural networks* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=79)... [10.6](https://www.youtube.com/watch?v=FoDz01QNSiY&index=84&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
 
+https://explosion.ai/blog/deep-learning-formula-nlp  
+https://spacy.io/docs/usage/word-vectors-similarities
+
+https://aiexperiments.withgoogle.com/visualizing-high-dimensional-space  
+http://projector.tensorflow.org
+
 ## Questions
 
 In which area of NLP has deep learning had the most impact as of mid-2017?
