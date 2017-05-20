@@ -8,6 +8,7 @@ Motivation for deep learning, trade-offs of preprocessing, autoencoders and word
 
 ## Lecture 2
 Generating and augmenting data for speech recognition, translit, and grammar correction
+
 [Slides](https://docs.google.com/presentation/d/1rZYsCpMOop0z5oAvslWSw6l5PYHkjDY4ClD_n2vgaeg/edit?usp=sharing)
 
 ## Lab
