@@ -2,10 +2,13 @@
 # 2. Deep Learning
 
 ## Lecture 1
-Motivation for deep learning, trade-offs of preprocessing, autoencoders and word embeddings, doc vectors vs word vectors vs char vectors, comparison to old-school techniques like TF-IDF and LSA
+Motivation for deep learning, trade-offs of preprocessing, autoencoders and word embeddings, doc vectors vs word vectors vs char vectors
+
+[Slides](https://docs.google.com/presentation/d/1eV0nCqNphoZJ3v7bulyamGe4CepF6sDN9-xXuBnR6qc/edit?usp=sharing)
 
 ## Lecture 2
 Generating and augmenting data for speech recognition, translit, and grammar correction
+[Slides](https://docs.google.com/presentation/d/1rZYsCpMOop0z5oAvslWSw6l5PYHkjDY4ClD_n2vgaeg/edit?usp=sharing)
 
 ## Lab
 spaCy
