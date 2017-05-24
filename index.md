@@ -21,7 +21,7 @@ Lab: Set up your environment, build a simple but effective spelling corrector
 
 Lectures:
 
-Lab: Unsupervised and supervised learning with fastText
+Lab: Unsupervised and supervised learning on text with fastText
 
 [Start](/nlp-intro-course/deep-learning)
 
