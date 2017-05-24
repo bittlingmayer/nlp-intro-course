@@ -25,6 +25,7 @@ What does the subword parameter do?
 How do the parameters affect accuracy?  
 How do the parameters affect training time?  
 How would the results compare to pre-trained word vectors?
+How would 10x or 100x more data change the results?
 
 ## More
 Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
