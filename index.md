@@ -19,7 +19,7 @@ Lab: Set up your environment, build a simple but effective spelling corrector
 
 ## 2. Deep Learning
 
-Lectures:
+Lectures: Motivation for deep learning, word vectors, doc, query and subword vectors.
 
 Lab: Unsupervised and supervised learning on text with fastText
 
@@ -28,9 +28,9 @@ Lab: Unsupervised and supervised learning on text with fastText
 
 ## 3. Conversation
 
-Lectures: 
+Lectures: [coming soon]
 
-Lab: 
+Lab: [coming soon]
 
 [Start](/nlp-intro-course/conversation)
 
