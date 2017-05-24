@@ -21,7 +21,7 @@ Lab: Set up your environment, build a simple but effective spelling corrector
 
 Lectures:
 
-Lab: Word vectors with spaCy
+Lab: Unsupervised and supervised learning with fastText
 
 [Start](/nlp-intro-course/deep-learning)
 
