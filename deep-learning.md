@@ -27,6 +27,7 @@ How do the parameters affect training time?
 How would the results compare to pre-trained word vectors?
 How would 10x or 100x more data change the results?
 How could you use this for other tasks like language identification or spelling correction?
+How could you make meaningful datasets for fastText on the same scale?
 
 ## More
 Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
