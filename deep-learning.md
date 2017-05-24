@@ -18,6 +18,8 @@ Read https://github.com/facebookresearch/fastText/blob/master/tutorials/unsuperv
 
 Read https://github.com/facebookresearch/fastText/blob/master/tutorials/supervised-learning.md to understand how the supervised classifier works on a toy example.
 
+Note: Those on Windows systems must grab the .exe from the [fastText for Windows](https://github.com/xiamx/fastText/releases) .zip and can skip the `make` step.
+
 Then train and test the classifier on the dataset at https://www.kaggle.com/bittlingmayer/AmazonReviews.
 
 What compromises does the data format make?  
@@ -28,6 +30,7 @@ How would the results compare to pre-trained word vectors?
 How would 10x or 100x more data change the results?
 How could you use this for other tasks like language identification or spelling correction?
 How could you make meaningful datasets for fastText on the same scale?
+
 
 ## More
 Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
