@@ -12,7 +12,19 @@ Generating and augmenting data for speech recognition, translit, and grammar cor
 [Slides](https://docs.google.com/presentation/d/1rZYsCpMOop0z5oAvslWSw6l5PYHkjDY4ClD_n2vgaeg/edit?usp=sharing)
 
 ## Lab
-spaCy
+Adapt the fastText supervised classification code to do sentiment analysis on Amazon review titles and text.
+
+Read https://github.com/facebookresearch/fastText/blob/master/tutorials/unsupervised-learning.md to get acquainted with the parameters, eg subword length.
+
+Read https://github.com/facebookresearch/fastText/blob/master/tutorials/supervised-learning.md to understand how the supervised classifier works on a toy example.
+
+Then train and test the classifier on the dataset at https://www.kaggle.com/bittlingmayer/AmazonReviews.
+
+What compromises does the data format make?  
+What does the subword parameter do?  
+How do the parameters affect accuracy?  
+How do the parameters affect training time?  
+How would the results compare to pre-trained word vectors?
 
 ## More
 Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
