@@ -6,7 +6,7 @@ Building dialogue systems - "voice UI", "chat bots", "conversational AI", "intel
 
 Quality vs coverage, context representation, seq2seq, human-in-the-loop, re-inforcement learning
 
-Slides [coming soon]
+[Slides](https://docs.google.com/presentation/d/1nRGvGMxrZPAsC8IePug3pUc8ITIAB8H5CC3sE3fpnkQ/edit?usp=sharing)
 
 ## Lecture 2
 
@@ -14,9 +14,7 @@ How do we validate or measure success of decoder output?
 
 Datasets, code and APIs from Facebook, Amazon, Microsoft and Google
 
-Slides [coming soon]
-
-[Slides](https://docs.google.com/presentation/d/1yLHX748wU_6i1FVJPxORgCx7pYnfLzX2dfbUE1cHmLk/edit?usp=sharing)
+[Slides](https://docs.google.com/presentation/d/1CBmYfbso9FquyoB-Vh0hTXv33N9f5-jgfKwyayaUY_Q/edit?usp=sharing)
 
 ## SQuAD
 
@@ -47,7 +45,7 @@ This is interesting for a few reasons:
 See the leaderboard, and click *Explore SQuAD and model predictions* and compare the results for different models, for example for the article *Nikola Tesla*.
 
 
-## ParlAI [Facebook]
+## ParlAI
 
 [ParlAI](http://parl.ai) is a new "unified platform for training and evaluating dialog models across many tasks" from the Facebook Research group.
 
@@ -80,6 +78,8 @@ python -m spacy download en
 ```
 
 ## Lab
+
+[Slides](https://docs.google.com/presentation/d/1yLHX748wU_6i1FVJPxORgCx7pYnfLzX2dfbUE1cHmLk/edit?usp=sharing)
 
 **Improve the baseline accuracy for one of the ParlAI corpora**
 
@@ -115,18 +115,28 @@ Or you can use fasttext to train vectors from this dataset.
 #### 3. Learning
 Use `memnn_luatorch_cpu` or `drqa`.  These require a Unix-based system and great patience - it takes hours or days to train, even with toy parameters.
 
-You can also feed the word embeddings you get from spacy or fasttext to an ML lib like Theano or TensorFlow.
+You can also feed the word embeddings you get from spacy or fasttext to a machine learning lib like Theano or TensorFlow.
 
 #### Note
 It is not required to use ParlAI, it is recommended because it makes it easier.
 
-### Submit
+### Submission Instructions
 
 Branch the https://github.com/facebookresearch/ParlAI/ repo
 
-Submit your code to the branch
+Submit your code changes to the branch
 
-Send an email with subject *Agent* and a link to the branch on GitHub to agent@bittlingmayer.org
+Send an email with subject *Agent* to agent@bittlingmayer.org
+
+In the email, include a link to the branch on GitHub and explain your approach.
+
+Which corpus or corpora did you use for development and testing?
+
+Did you try any approaches that failed?
+
+Do you do any pre-processing?
+
+How did accuracy improve or change and was the metric useful?
 
 ## More
 
