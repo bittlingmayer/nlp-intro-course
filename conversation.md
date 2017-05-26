@@ -51,7 +51,7 @@ See the leaderboard, and click *Explore SQuAD and model predictions* and compare
 
 It makes it easy to get started doing research work.  Dozens of useful corpora are included and formatted.  There are baseline algorithms and deep learning implementations.  There is even an integration with Amazon Mechanical Turk.
 
-Read [https://github.com/facebookresearch/ParlAI/blob/docs-format-fix/README.md](https://github.com/facebookresearch/ParlAI/blob/docs-format-fix/README.md) (version with fixes [here](https://github.com/facebookresearch/ParlAI/blob/docs-format-fix/README.md))
+Read http://parl.ai/static/docs/basic_tutorial.html
 
 To install ParlAI:
 
