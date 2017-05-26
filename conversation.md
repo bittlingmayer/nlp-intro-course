@@ -18,7 +18,7 @@ Slides [coming soon]
 
 [Slides](https://docs.google.com/presentation/d/1yLHX748wU_6i1FVJPxORgCx7pYnfLzX2dfbUE1cHmLk/edit?usp=sharing)
 
-### SQuAD
+## SQuAD
 
 [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) from Pranav Rajpurkar at Stanford is a unique dataset for dialogue research.
 
@@ -47,7 +47,7 @@ This is interesting for a few reasons:
 See the leaderboard, and click `Explore SQuAD and model predictions` and compare the results for different models, for example for the article *Nikola Tesla*.
 
 
-### ParlAI [Facebook]
+## ParlAI [Facebook]
 
 [ParlAI](http://parl.ai) is a new "unified platform for training and evaluating dialog models across many tasks" from the Facebook Research group.
 
