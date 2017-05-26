@@ -22,20 +22,24 @@ Slides [coming soon]
 
 [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) from Pranav Rajpurkar at Stanford is a unique dataset for dialogue research.
 
-Input: a paragraph from Wikipedia, and a question about the paragraph
+Input: a paragraph from Wikipedia, and a question about the paragraph  
+
 Output: two integers, the start and end index of the 
 
 Example:
 
-> context: "Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system."  
+```context: "Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system."```
 
-> question: "When was Nikola Tesla born?"
-> answer: [54, 58]
-
+```
+question: "When was Nikola Tesla born?"
+answer: [54, 58]
+```
 Of course `context[54:58]` evaluates to `"1856"`.
 
 This is interesting for a few reasons:  
-1. It is an easily measurable task, because the output is two integers not text.
+
+1. It is an easily measurable task, because the output is two integers not text.  
+
 2. It is a step towards being able to let a machine learn context or read, say, a book in order to improve its so-called intelligence.
 
 See the leaderboard, and click `Explore SQuAD and model predictions` and compare the results for different models, for example for the article *Nikola Tesla*.
