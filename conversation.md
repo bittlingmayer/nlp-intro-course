@@ -59,18 +59,32 @@ To install ParlAI:
 git clone https://github.com/facebookresearch/ParlAI.git
 cd ParlAI
 python setup.py develop
-
-pip3 install -r requirements.txt
 ```
 
 If you hit an encoding problem, open `setup.py` and change `open('README.md')` to `open('README.md', encoding = 'utf-8')`.
 If you hit a similar problem in `fbdialog_teacher.py` or other files, the fix is the same.
 
+Install the requirements:
 ```
-To test that it was installed correctly:
-python examples/display_model.py -m ir_baseline -t "#moviedd-reddit" -dt valid
+pip3 install -r requirements.txt
+```
+  
+To test that ParlAI and the requirements were installed correctly:  
+```
 python examples/eval_model.py -m ir_baseline -t simplequestions -dt valid
+
+python examples/eval_model.py -m ir_baseline -t "#moviedd-reddit" -dt valid
 ```
+You have now trained and run the baseline model on two different corpora.  
+
+To see its actual answers:
+
+```
+python examples/display_model.py -m ir_baseline -t simplequestions -dt valid
+
+python examples/display_model.py -m ir_baseline -t "#moviedd-reddit" -dt valid
+```
+It's not very good.
 
 Now is also a good time to get the data files for parsing and tagging English text with spacy.
 ```
