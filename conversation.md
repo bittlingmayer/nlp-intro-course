@@ -16,8 +16,18 @@ Slides [coming soon]
 
 ## Lab
 
-[coming soon]
+Parl AI [Facebook]:
+- http://parl.ai
+- https://github.com/facebookresearch/ParlAI/blob/docs-format-fix/README.md
+
+What is Amazon Mechanical Turk?
+
+How do we validate or measure success of decoder output?
+
+https://rajpurkar.github.io/SQuAD-explorer/ [Stanford]
+
 
 ## More
 
+https://en.wikipedia.org/wiki/Mechanical_Turk 1770
 https://en.wikipedia.org/wiki/ELIZA 1966
