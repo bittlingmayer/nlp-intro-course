@@ -117,6 +117,8 @@ Save this as `preproc.py`.
 #### 2. Word embeddings
 Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to replace TFIDF with word embeddings  
 
+See the function `rank_candidates`
+
 For example, use spacy for good pre-trained vectors:  
 ```
 import spacy
