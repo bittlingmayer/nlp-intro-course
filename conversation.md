@@ -26,11 +26,12 @@ Input: a paragraph from Wikipedia, and a question about the paragraph
 Output: two integers, the start and end index of the 
 
 Example:
-```
-context: "Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system."  
-question: "When was Nikola Tesla born?"
-answer: [54, 58]
-```
+
+> context: "Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system."  
+
+> question: "When was Nikola Tesla born?"
+> answer: [54, 58]
+
 Of course `context[54:58]` evaluates to `"1856"`.
 
 This is interesting for a few reasons:  
