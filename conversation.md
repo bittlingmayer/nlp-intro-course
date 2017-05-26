@@ -30,15 +30,17 @@ Example:
 
 ```context: "Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system."```
 
-```
-question: "When was Nikola Tesla born?"
-answer: [54, 58]
-```
-Of course `context[54:58]` evaluates to `"1856"`.
+```question: "When was Nikola Tesla born?"```
+
+```answer: [54, 58]```
+
+And `context[54:58]` evaluates to `"1856"`.
+
+(Humans created the questions, and other humans highlighted the answers to create the start and end indices.)
 
 This is interesting for a few reasons:  
 
-1. It is an easily measurable task, because the output is two integers not text.  
+1. It is a learnable and measurable task, because the output is two integers, not text.  
 
 2. It is a step towards being able to let a machine learn context or read, say, a book in order to improve its so-called intelligence.
 
@@ -118,7 +120,13 @@ You can also feed the word embeddings you get from spacy or fasttext to an ML li
 #### Note
 It is not required to use ParlAI, it is recommended because it makes it easier.
 
-### Submi
+### Submit
+
+Branch the https://github.com/facebookresearch/ParlAI/ repo
+
+Submit your code to the branch
+
+Send an email with subject *Agent* and a link to the branch on GitHub to agent@bittlingmayer.org
 
 ## More
 
