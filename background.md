@@ -19,7 +19,9 @@ Increase the accuracy of Peter Norvig's classic [spelling corrector in half a pa
 
 Here's [the code](https://gist.github.com/bittlingmayer/568c04604efff73dbe2c6140c7c87a72).
 
-Change the cost function, use context, use the subword level, preprocess, add more data...
+Some ideas: generate more or better candidates, add a cost function, use context, use the subword level, preprocess, add more data...
+
+Peter Norvig has explained in depth many potential improvements on his page.
 
 ### Submission 
 
