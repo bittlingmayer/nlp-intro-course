@@ -20,7 +20,7 @@ Parl AI [Facebook]:
 - http://parl.ai
 - https://github.com/facebookresearch/ParlAI/blob/docs-format-fix/README.md
 
-What is Amazon Mechanical Turk?
+How is Amazon Mechanical Turk used by researchers?
 
 How do we validate or measure success of decoder output?
 
