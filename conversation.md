@@ -97,7 +97,7 @@ For example using spacy to add POS tags.
 Save this as `preproc.py`.
 
 #### 2. Word embeddings
-Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to eplace TFIDF with word embeddings  
+Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to replace TFIDF with word embeddings  
 
 For example, use spacy for good pre-trained vectors:  
 ```
@@ -111,6 +111,8 @@ doc[:-1].vector # Vector for the last word "born"
 ```
 
 Or you can use fasttext to train vectors from this dataset.
+
+You can take the cosine distance between the question and the answer candidates.
 
 #### 3. Learning
 Use `memnn_luatorch_cpu` or `drqa`.  These require a Unix-based system and great patience - it takes hours or days to train, even with toy parameters.
