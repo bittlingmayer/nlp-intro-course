@@ -44,7 +44,7 @@ This is interesting for a few reasons:
 
 2. It is a step towards being able to let a machine learn context or read, say, a book in order to improve its so-called intelligence.
 
-See the leaderboard, and click `Explore SQuAD and model predictions` and compare the results for different models, for example for the article *Nikola Tesla*.
+See the leaderboard, and click *Explore SQuAD and model predictions* and compare the results for different models, for example for the article *Nikola Tesla*.
 
 
 ## ParlAI [Facebook]
