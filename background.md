@@ -21,6 +21,76 @@ Here's [the code](https://gist.github.com/bittlingmayer/568c04604efff73dbe2c6140
 
 Change the cost function, use context, use the subword level, preprocess, add more data...
 
+### Submission 
+
+Submit your code as a new Kernel to [kaggle.com/bittlingmayer/spelling](https://kaggle.com/bittlingmayer/spelling)
+
+#### 1. Add a new Kernel  
+Click *New Kernel*  
+Choose *Script* or *Notebook* according to your preference  
+Title it *spell.py*
+
+#### 2. Edit the script
+See the [example with the baseline](https://www.kaggle.com/bittlingmayer/spell-py), which is Norvig's spell.py plus the evaluation code, with the following changes to work in a Kaggle Kernel:
+
+Change file paths to start with `../input/`, for example:  
+```
+WORDS = Counter(words(open('../input/big.txt').read()))
+```
+If you need to change some unit tests, that is fine.  In fact, the tests in Norvig's original code break on the current version of big.txt.
+
+If you need to do pre-processing of the data, note that you can write out files to the current directory too.
+
+You must change the code at the end to test and print the result:
+```
+def test_corpus(filename):
+    print("Testing " + filename)
+    spelltest(Testset(open('../input/' + filename)))     
+
+test_corpus('spell-testset1.txt') # Development set
+test_corpus('spell-testset2.txt') # Final test set
+
+# Supplementary sets
+test_corpus('wikipedia.txt')
+test_corpus('aspell.txt')
+```
+
+#### 3. Test
+Click *Run* to save and run  
+Open the *Options* tab and click *Hide Script* if you do not want others to see or find your code
+Open the *Log* tab  
+You should see something similar to this:  
+```
+unit_tests pass
+Testing spell-testset1.txt
+75% of 270 correct (6% unknown) at 30 words per second
+Testing spell-testset2.txt
+68% of 400 correct (11% unknown) at 25 words per second
+Testing wikipedia.txt
+61% of 2455 correct (24% unknown) at 18 words per second
+Testing aspell.txt
+43% of 531 correct (23% unknown) at 13 words per second 
+```
+
+#### 6. Explain your approach
+
+Make sure the code or Notebook is professionally commented and formatted
+
+In the *Comments* tab of the Kernel, explain your approach:
+
+Did you do preprocessing?
+
+What approaches did you try that failed?
+
+What potential improvements could you make?
+
+#### 5. Submit
+
+Send an email to spelling@bittlingmayer.org with subject *Spelling* and message with your name and the link to your Kernel: 
+
+*<your name\>: kaggle.com/<your-username\>/spell-py*
+
+
 ## More
 
 Read [*double articulation*](https://en.wikipedia.org/wiki/Double_articulation)
