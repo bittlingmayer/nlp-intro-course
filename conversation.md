@@ -20,11 +20,12 @@ Parl AI [Facebook]:
 - http://parl.ai
 - https://github.com/facebookresearch/ParlAI/blob/docs-format-fix/README.md
 
-How is Amazon Mechanical Turk used by researchers?
+How is Amazon Mechanical Turk used by researchers?  How do we validate or measure success of decoder output?
 
-How do we validate or measure success of decoder output?
+SQuAD [Stanford]:
+ - https://rajpurkar.github.io/SQuAD-explorer/
 
-https://rajpurkar.github.io/SQuAD-explorer/ [Stanford]
+[Slides](https://docs.google.com/presentation/d/1yLHX748wU_6i1FVJPxORgCx7pYnfLzX2dfbUE1cHmLk/edit?usp=sharing)
 
 
 ## More
