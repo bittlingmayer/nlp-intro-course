@@ -103,7 +103,11 @@ The default `ir_baseline` model uses old-school [TF-IDF](https://en.wikipedia.or
 
 ParlAI also included DrQA, which is a NN-based model especially for SQuAD.  It requires Torch, the ML lib used at and supported by Facebook Research.
 
-You can take multiple approaches:
+You can take multiple approaches to improve the accuracy:
+
+#### 0. Parameter tuning
+
+`ir_baseline` has a parameter `--length_penalty`.  Variable-length input and output is a fundamental challenge in dialogue systems, because techniques like seq2seq are ideal for input and output sequences of the same length.
 
 #### 1. Preprocessing
 Improve the dataset by canonicalising or adding information.  
