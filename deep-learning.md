@@ -34,7 +34,40 @@ How could you make meaningful datasets for fastText on the same scale?
 
 ### Submission Instructions
 
-[COMING SOON]
+Submit your code as Gist or repo
+
+Example: https://gist.github.com/bittlingmayer/a276720c513a051737464855666eca12
+
+### 1.. Create a new Gist or repo
+[Create a GitHub gist](htts://gist.github.com) or repo with:  
+```
+preproc.sh
+sentiment.sh
+README.md
+```
+If you chose to use python, in that case `preproc.py` and/or `sentiment.py`.  And you made a good choice.
+
+### 2. The 
+
+The preprocessing script should take a data file:  
+```
+preproc.sh <some data file in the fastText format>
+```
+
+The sentiment script should take the training and test file:  
+```
+sentiment.sh <training file> <test file>
+```
+And it should run fastText with the parameters that you have chosen.
+
+### 3. Explain your approach
+The README should explain your approach and your results.  You can also make notes about approaches that failed.
+
+### 4. Submit
+Send an email to fasttext@bittlingmayer.org with subject *fastText* and message with your name and the link to your Gist or repo:
+
+<your name>: https://gist.github.com/bittlingmayer/a276720c513a051737464855666eca12
+
 
 ## More
 Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
