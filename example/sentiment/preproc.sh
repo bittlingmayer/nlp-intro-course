@@ -1,1 +1,1 @@
-tr '[:upper:]' '[:lower:]' < "$1" > "$1".preproc
+tr '[:upper:]' '[:lower:]' < "$1"
