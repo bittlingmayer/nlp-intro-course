@@ -43,7 +43,7 @@ See the [example with the baseline](https://www.kaggle.com/bittlingmayer/spell-p
 
 big.txt is already in the environment, at `../input/big.txt`.
 
-So `'big.txt'` must be changed to `'../input/``, for example:  
+So `'big.txt'` must be changed to `'../input/'`, for example:  
 ```
 WORDS = Counter(words(open('../input/big.txt').read()))
 ```
