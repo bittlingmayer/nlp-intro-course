@@ -23,7 +23,7 @@ Some ideas: generate more or better candidates, add a cost function, use context
 
 Peter Norvig has explained in depth many potential improvements on his page.
 
-### Submission 
+### Submission Instructions
 
 Submit your code as a new Kernel to [kaggle.com/bittlingmayer/spelling](https://kaggle.com/bittlingmayer/spelling)
 
