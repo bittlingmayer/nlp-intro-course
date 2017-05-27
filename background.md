@@ -52,6 +52,14 @@ If you need to change some unit tests, that is fine.  In fact, the tests in Norv
 If you need to do pre-processing of the data, note that you can write out files to the current directory too.
 
 You must change the code at the end to test and print the result:
+
+Remove:
+```
+spelltest(Testset(open('spell-testset1.txt'))) # Development set
+spelltest(Testset(open('spell-testset2.txt'))) # Final test set
+```
+
+Add:
 ```
 def test_corpus(filename):
     print("Testing " + filename)
