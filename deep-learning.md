@@ -26,11 +26,15 @@ What compromises does the data format make?
 What does the subword parameter do?  
 How do the parameters affect accuracy?  
 How do the parameters affect training time?  
-How would the results compare to pre-trained word vectors?
-How would 10x or 100x more data change the results?
-How could you use this for other tasks like language identification or spelling correction?
-How could you make meaningful datasets for fastText on the same scale?
+How would the results compare to pre-trained word vectors?  
+How would 10x or 100x more data change the results?  
+What will happen if the dataset has sentences in 100+ languages?
+How could you use this for other tasks like language identification or spelling correction?  
+How could you make meaningful datasets for fastText on the same scale?  
 
+### Submission Instructions
+
+[COMING SOON]
 
 ## More
 Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
