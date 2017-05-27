@@ -107,7 +107,7 @@ What potential improvements could you make?
 Send an email to spelling@bittlingmayer.org with subject *Spelling* and the link to your Kernel and your name: 
 ```
 kaggle.com/jmustermann/spell-py
-Johann Mustermann
+Johanna Mustermann
 ```
 
 
