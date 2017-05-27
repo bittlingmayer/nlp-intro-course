@@ -12,7 +12,10 @@ Generating and augmenting data for speech recognition, translit, and grammar cor
 [Slides](https://docs.google.com/presentation/d/1rZYsCpMOop0z5oAvslWSw6l5PYHkjDY4ClD_n2vgaeg/edit?usp=sharing)
 
 ## Lab
-Adapt Facebook Research's fastText supervised classification code to do sentiment analysis on Amazon review titles and text.
+
+**Use Facebook Research's fastText supervised classification to do sentiment analysis**
+
+**Improve the baseline precision and recall on 3.6M Amazon review titles and text**
 
 Read [fastText/tutorials/unsupervised-learning.md](https://github.com/facebookresearch/fastText/blob/master/tutorials/unsupervised-learning.md) to get acquainted with the parameters, eg subword length.
 
