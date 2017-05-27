@@ -87,7 +87,7 @@ Send an email to fasttext@bittlingmayer.org with subject *fastText* and the link
 
 ```
 https://gist.github.com/jmustermann/a276720c513a051737464855666eca12
-Johannes Mustermann
+Johanna Mustermann
 ```
 
 
