@@ -204,7 +204,7 @@ Submission is not required.  This lab is exploratory.
 
 If you have chosen a project then I will support you.
 
-If you have modified ParlAI then branch the https://github.com/facebookresearch/ParlAI/ repo
+If you have modified ParlAI then branch the github.com/facebookresearch/ParlAI/ repo
 
 Submit your code changes to the branch
 
