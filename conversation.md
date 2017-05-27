@@ -103,6 +103,8 @@ The default `ir_baseline` model uses old-school [TF-IDF](https://en.wikipedia.or
 
 ParlAI also included DrQA, which is a NN-based model especially for SQuAD.  It requires Torch, the ML lib used at and supported by Facebook Research.
 
+Note that when you make a change to the ParlAI code, you must re-run `python setup.py develop` for the command-line utility to recompile with the changes.
+
 You can take multiple approaches to improve the accuracy:
 
 #### 0. Parameter tuning
