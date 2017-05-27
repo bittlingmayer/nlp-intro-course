@@ -171,9 +171,9 @@ How did accuracy improve or change and was the metric useful?
 [Mechanical Turk](https://en.wikipedia.org/wiki/Mechanical_Turk) 1770  
 [ELIZA](https://en.wikipedia.org/wiki/ELIZA) 1966  
 [*A Survey of Available Corpora for Building
-Data-Driven Dialogue Systems*]https://arxiv.org/pdf/1512.05742.pdf)  
-https://developers.google.com/actions/  
+Data-Driven Dialogue Systems*](https://arxiv.org/pdf/1512.05742.pdf)  
 https://developers.facebook.com/docs/messenger-platform  
+https://developers.google.com/actions/  
 https://api.ai  
 video: [Amazon Echo & Google Home having a conversation](https://www.youtube.com/watch?v=t5bYtcjWcPQ)  
 video: [*Infinite Looping Siri, Alexa and Google Home*](https://www.youtube.com/watch?v=vmINGWsyWX0)  
