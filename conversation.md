@@ -95,6 +95,8 @@ python -m spacy download en
 
 [Slides](https://docs.google.com/presentation/d/1yLHX748wU_6i1FVJPxORgCx7pYnfLzX2dfbUE1cHmLk/edit?usp=sharing)
 
+This lab is experimental.  ParlAI is a new framework that is still launching.
+
 **Improve the baseline accuracy for one of the ParlAI corpora**
 
 You can choose from any of the corpora included with ParlAI.  They have different output types (eg SQuAD), different domains, and also very different data sizes.
@@ -146,6 +148,17 @@ Improve the dataset by canonicalising, or adding information.  For example, use 
 #### 2. Word embeddings
 Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to replace TFIDF with word embeddings  
 
+```
+# (i) find the most similar message in the (training) dataset and output the response from that exchange; or
+# (ii) find the most similar response to the input directly.
+# (iii) if label_candidates are provided, simply ranks them according to their similarity to the input message.
+# Currently only (iii) is used.
+#
+# Additonally, TFIDF is either used (requires building a dictionary) or not,
+# depending on whether you train on the train set first, or not.
+```
+You can try to implement (i) or (ii) using word vector [similarity](https://spacy.io/docs/usage/word-vectors-similarities).
+
 See the function `act`.  The current code just gets the representation of the query (`build_query_representation`), and iterates through aaall the candidates (`rank_candidates`), and compares the representation (`score_match`).
 
 It also removes [stopwords](https://en.wikipedia.org/wiki/Stop_words) that may not add much meaning.
@@ -182,10 +195,8 @@ Then it begins the validation:
 ```
 The result is very modest.
 
-You can also feed the word embeddings you get from spacy or fasttext to a machine learning lib like Theano or TensorFlow.
-
 #### Note
-It is not required to use ParlAI, it is recommended because it makes it easier.
+It is not required to use ParlAI, it is recommended because it makes it easier.  You can also feed the word embeddings you get from spacy or fasttext to a machine learning lib like Theano or TensorFlow.
 
 ### Submission Instructions
 
@@ -214,5 +225,5 @@ Data-Driven Dialogue Systems*](https://arxiv.org/pdf/1512.05742.pdf)
 https://developers.facebook.com/docs/messenger-platform  
 https://developers.google.com/actions/  
 https://api.ai  
-video: [Amazon Echo & Google Home having a conversation](https://www.youtube.com/watch?v=t5bYtcjWcPQ)  
+video: [*Amazon Echo & Google Home having a conversation*](https://www.youtube.com/watch?v=t5bYtcjWcPQ)  
 video: [*Infinite Looping Siri, Alexa and Google Home*](https://www.youtube.com/watch?v=vmINGWsyWX0)  
