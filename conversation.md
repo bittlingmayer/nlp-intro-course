@@ -200,11 +200,15 @@ It is not required to use ParlAI, it is recommended because it makes it easier. 
 
 ### Submission Instructions
 
-Branch the https://github.com/facebookresearch/ParlAI/ repo
+Submission is not required.  This lab is exploratory.
+
+If you have chosen a project then I will support you.
+
+If you have modified ParlAI then the https://github.com/facebookresearch/ParlAI/ repo
 
 Submit your code changes to the branch
 
-Send an email with subject *Agent* to agent@bittlingmayer.org
+Send an email with subject *ParlAI* to parlai@bittlingmayer.org
 
 In the email, include a link to the branch on GitHub and explain your approach.
 
