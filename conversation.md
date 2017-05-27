@@ -146,7 +146,7 @@ Add a new dataset.  For example, use the Amazon dataset to train an agent that t
 Improve the dataset by canonicalising, or adding information.  For example, use spacy to add POS tags.  Save this as `preproc.py`.
 
 #### 2. Word embeddings
-Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to replace TFIDF with word embeddings  
+Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to replace TF-IDF with [similarity](https://spacy.io/docs/usage/word-vectors-similarities) based on word vectors.
 
 ```
 # (i) find the most similar message in the (training) dataset and output the response from that exchange; or
@@ -157,7 +157,7 @@ Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch
 # Additonally, TFIDF is either used (requires building a dictionary) or not,
 # depending on whether you train on the train set first, or not.
 ```
-You can try to implement (i) or (ii) using word vector [similarity](https://spacy.io/docs/usage/word-vectors-similarities).
+You can try to implement (i) or (ii).
 
 See the function `act`.  The current code just gets the representation of the query (`build_query_representation`), and iterates through aaall the candidates (`rank_candidates`), and compares the representation (`score_match`).
 
