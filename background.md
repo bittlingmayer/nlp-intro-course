@@ -25,7 +25,10 @@ Peter Norvig has explained in depth many potential improvements on his page.
 
 ### Submission Instructions
 
-Submit your code as a new Kernel to [kaggle.com/bittlingmayer/spelling](https://kaggle.com/bittlingmayer/spelling)
+Submit your code as a Kaggle Kernel to <a href="https://kaggle.com/bittlingmayer/spelling/" target="_blank">[kaggle.com/bittlingmayer/spelling]</a>
+
+Example:  
+[example with the baseline](https://www.kaggle.com/bittlingmayer/spell-py)
 
 #### 1. Add a new Kernel  
 Click *New Kernel*  
@@ -33,9 +36,14 @@ Choose *Script* or *Notebook* according to your preference
 Title it *spell.py*
 
 #### 2. Edit the script
+
+Delete what is there and paste in your spell.py and the evaluation code.
+
 See the [example with the baseline](https://www.kaggle.com/bittlingmayer/spell-py), which is Norvig's spell.py plus the evaluation code, with the following changes to work in a Kaggle Kernel:
 
-Change file paths to start with `../input/`, for example:  
+big.txt is already in the environment, at `../input/big.txt`.
+
+So change the file path to start with `../input/`, for example:  
 ```
 WORDS = Counter(words(open('../input/big.txt').read()))
 ```
@@ -74,9 +82,9 @@ Testing aspell.txt
 43% of 531 correct (23% unknown) at 13 words per second 
 ```
 
-#### 6. Explain your approach
+#### 5. Explain your approach
 
-Make sure the code or Notebook is professionally commented and formatted
+Make sure the script or Notebook is professionally commented and formatted
 
 In the *Comments* tab of the Kernel, explain your approach:
 
@@ -86,7 +94,7 @@ What approaches did you try that failed?
 
 What potential improvements could you make?
 
-#### 5. Submit
+#### 6. Submit
 
 Send an email to spelling@bittlingmayer.org with subject *Spelling* and message with your name and the link to your Kernel: 
 
