@@ -35,12 +35,12 @@ The code assumes that the data files are in the fastText format.
 
 To preprocess:
 ```
-preproc.sh train.ft.txt > train.ft.txt
-preproc.sh test.ft.txt > test.ft.txt
+preproc.sh data/amazon_reviews/train.ft.txt > data/amazon_reviews/train.ft.txt
+preproc.sh data/amazon_reviews/train.ft.txt > data/amazon_reviews/test.ft.txt
 ```
 
 To evaluation predictions:
 ```
-sentiment.sh
+sentiment.sh data/amazon_reviews/train.ft.txt data/amazon_reviews/test.ft.txt
 ```
 
