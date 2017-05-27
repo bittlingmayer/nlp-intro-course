@@ -109,10 +109,11 @@ You can take multiple approaches to improve the accuracy:
 
 `ir_baseline` has a parameter `--length_penalty`.  Variable-length input and output is a fundamental challenge in dialogue systems, because techniques like seq2seq are ideal for input and output sequences of the same length.
 
-#### 1. Preprocessing
-Improve the dataset by canonicalising or adding information.  
-For example using spacy to add POS tags.
-Save this as `preproc.py`.
+#### 1. Better Data
+
+Add a new dataset.  For example, use the Amazon dataset to train an agent that takes a review text as input and predicts a title, or takes a title as input and predicts a review text (more difficult).
+
+Improve the dataset by canonicalising, or adding information.  For example, use spacy to add POS tags.  Save this as `preproc.py`.
 
 #### 2. Word embeddings
 Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to replace TFIDF with word embeddings  
