@@ -80,10 +80,11 @@ What future improvements would you make?
 
 ### 4. Submit
 
-Send an email to fasttext@bittlingmayer.org with subject *fastText* and message with your name and the link to your Gist or repo, for example:
+Send an email to fasttext@bittlingmayer.org with subject *fastText* and the link to your Gist or repo and your name, for example:
 
 ```
-Johannes Mustermann: https://gist.github.com/jmustermann/a276720c513a051737464855666eca12
+https://gist.github.com/jmustermann/a276720c513a051737464855666eca12
+Johannes Mustermann
 ```
 
 
