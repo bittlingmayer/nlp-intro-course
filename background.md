@@ -25,12 +25,12 @@ Peter Norvig has explained in depth many potential improvements on his page.
 
 ### Submission Instructions
 
-Submit your code as a Kaggle Kernel to <a href="https://kaggle.com/bittlingmayer/spelling/" target="_blank">[kaggle.com/bittlingmayer/spelling]</a>
+Submit your code as a Kaggle Kernel to the Spelling dataset
 
-Example:  
-[example with the baseline](https://www.kaggle.com/bittlingmayer/spell-py)
+Example:  https://www.kaggle.com/bittlingmayer/spell-py
 
 #### 1. Add a new Kernel  
+Open <a href="https://kaggle.com/bittlingmayer/spelling/" target="_blank">[kaggle.com/bittlingmayer/spelling]</a>
 Click *New Kernel*  
 Choose *Script* or *Notebook* according to your preference  
 Title it *spell.py*
