@@ -107,7 +107,33 @@ You can take multiple approaches to improve the accuracy:
 
 #### 0. Parameter tuning
 
-`ir_baseline` has a parameter `--length_penalty`.  Variable-length input and output is a fundamental challenge in dialogue systems, because techniques like seq2seq are ideal for input and output sequences of the same length.
+You can play with the hyperparameters:  
+```
+[num_examples:1000]
+[model_params:]
+[numthreads:1]
+[batchsize:1]
+[model_file:]
+...
+```
+
+The agent itself also has parameters:  
+```
+IrBaselineAgent
+[datatype:train]
+[numthreads:1]
+[dict_language:english]
+[batchsize:1]
+[dict_unktoken:<UNK>]
+[length_penalty:0.5]
+[dict_nulltoken:<NULL>]
+...
+[dict_minfreq:0]
+[dict_max_ngram_size:-1]
+...
+```
+
+About `length_penalty`: variable-length input and output is a fundamental challenge in dialogue systems, because techniques like seq2seq are ideal for input and output sequences of the same length.
 
 #### 1. Better Data
 
