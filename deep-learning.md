@@ -12,15 +12,15 @@ Generating and augmenting data for speech recognition, translit, and grammar cor
 [Slides](https://docs.google.com/presentation/d/1rZYsCpMOop0z5oAvslWSw6l5PYHkjDY4ClD_n2vgaeg/edit?usp=sharing)
 
 ## Lab
-Adapt the fastText supervised classification code to do sentiment analysis on Amazon review titles and text.
+Adapt Facebook Research's fastText supervised classification code to do sentiment analysis on Amazon review titles and text.
 
-Read https://github.com/facebookresearch/fastText/blob/master/tutorials/unsupervised-learning.md to get acquainted with the parameters, eg subword length.
+Read [fastText/tutorials/unsupervised-learning.md](https://github.com/facebookresearch/fastText/blob/master/tutorials/unsupervised-learning.md) to get acquainted with the parameters, eg subword length.
 
-Read https://github.com/facebookresearch/fastText/blob/master/tutorials/supervised-learning.md to understand how the supervised classifier works on a toy example.
+Read [fastText/tutorials/supervised-learning.md](https://github.com/facebookresearch/fastText/blob/master/tutorials/supervised-learning.md) to understand how the supervised classifier works on a toy example.
 
 Note: Those on Windows systems must grab the .exe from the [fastText for Windows](https://github.com/xiamx/fastText/releases) .zip and can skip the `make` step.
 
-Then train and test the classifier on the dataset at https://www.kaggle.com/bittlingmayer/AmazonReviews.
+Then train and test the classifier on the dataset at [kaggle.com/bittlingmayer/AmazonReviews](https://www.kaggle.com/bittlingmayer/AmazonReviews).
 
 What compromises does the data format make?  
 What does the subword parameter do?  
@@ -36,10 +36,12 @@ How could you make meaningful datasets for fastText on the same scale?
 
 Submit your code as Gist or repo
 
-Example: https://gist.github.com/bittlingmayer/a276720c513a051737464855666eca12
+Example: gist.github.com/bittlingmayer/a276720c513a051737464855666eca12
 
 ### 1.. Create a new Gist or repo
-[Create a GitHub gist](htts://gist.github.com) or repo with:  
+
+<a href="https://gist.github.com" target="_blank">Create a GitHub gist</a>
+
 ```
 preproc.sh
 sentiment.sh
@@ -58,20 +60,39 @@ The sentiment script should take the training and test file:
 ```
 sentiment.sh <training file> <test file>
 ```
-And it should run fastText with the parameters that you have chosen.
+And it should train fastText with the parameters that you have chosen, and then test it.
+
+For example, if you ran with 300 dimensions and a learning rate of 0.7:
+```
+./fasttext supervised -input "@1" -output model_amzn -dim 300 -lr 0.7
+./fasttext test -model model_amzn.bin "@2"
+```
 
 ### 3. Explain your approach
-The README should explain your approach and your results.  You can also make notes about approaches that failed.
+
+The README should explain your approach and your results.
+
+Did you take approaches that failed?  
+Did training time increase or decrease?  
+On what types of reviews did fastText perform the worst?   
+What preprocessing did you do and why?  
+What future improvements would you make?  
 
 ### 4. Submit
-Send an email to fasttext@bittlingmayer.org with subject *fastText* and message with your name and the link to your Gist or repo:
 
-<your name>: https://gist.github.com/bittlingmayer/a276720c513a051737464855666eca12
+Send an email to fasttext@bittlingmayer.org with subject *fastText* and message with your name and the link to your Gist or repo, for example:
+
+```
+Johannes Mustermann: https://gist.github.com/jmustermann/a276720c513a051737464855666eca12
+```
 
 
 ## More
+
 Watch the second part of [Lecture 1 from Stanford's *Natural Language Processing with Deep Learning*](https://www.youtube.com/watch?v=OQQ-W_63UgQ)  
-Read [Manning: *Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)  
+
+Read Manning [*Last Words: Computational Linguistics and Deep Learning*](mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning)  
+
 Watch Hugo LaRochelle's *Neural networks* [10.1](https://www.youtube.com/watch?v=OzZIOiMVUyM&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=79)... [10.6](https://www.youtube.com/watch?v=FoDz01QNSiY&index=84&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
 
 https://explosion.ai/blog/deep-learning-formula-nlp  
@@ -86,6 +107,6 @@ In which area of NLP has deep learning had the most impact as of mid-2017?
 
 Should we lowercase and remove punctuation from our dataset before training?
 
-What is Google SentencePiece for?
-
 How many rows of data do we need for tasks like spelling correction or translation?
+
+What is Google SentencePiece for?
