@@ -22,7 +22,7 @@ Datasets, code and APIs from Facebook, Amazon, Microsoft and Google
 
 Input: a paragraph from Wikipedia, and a question about the paragraph  
 
-Output: two integers, the start and end index of the 
+Output: two integers, the start index and the length
 
 Example:
 
@@ -30,9 +30,9 @@ Example:
 
 ```question: "When was Nikola Tesla born?"```
 
-```answer: [54, 58]```
+```answer: [54, 4]```
 
-And `context[54:58]` evaluates to `"1856"`.
+And `context[54:(54+4)]` evaluates to `"1856"`.
 
 (Humans created the questions, and other humans highlighted the answers to create the start and end indices.)
 
