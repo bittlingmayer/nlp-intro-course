@@ -104,9 +104,11 @@ What potential improvements could you make?
 
 #### 6. Submit
 
-Send an email to spelling@bittlingmayer.org with subject *Spelling* and message with your name and the link to your Kernel: 
-
-*<your name\>: kaggle.com/<your-username\>/spell-py*
+Send an email to spelling@bittlingmayer.org with subject *Spelling* and the link to your Kernel and your name: 
+```
+kaggle.com/jmustermann/spell-py
+Johann Mustermann
+```
 
 
 ## More
