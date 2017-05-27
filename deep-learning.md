@@ -40,7 +40,7 @@ Example: gist.github.com/bittlingmayer/a276720c513a051737464855666eca12
 
 ### 1.. Create a new Gist or repo
 
-<a href="https://gist.github.com" target="_blank">Create a GitHub gist</a>
+<a href="https://gist.github.com" target="_blank">Create a GitHub gist</a> with the following files:  
 
 ```
 preproc.sh
