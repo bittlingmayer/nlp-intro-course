@@ -167,10 +167,20 @@ Or you can use fasttext to train vectors from this dataset.
 You can take the cosine distance between the question and the answer candidates.
 
 #### 3. Learning
-Use `memnn_luatorch_cpu` or `drqa`.  These require a Unix-based system and great patience - it takes hours or days to train
+Use neural network model options `memnn_luatorch_cpu` or `drqa`.  These require a Unix-based system and great patience - it takes hours or days to train
 
 To make it train faster, you can use toy parameters, for example:   
 `--doc_layers 1 --question_layers 1 --use_qemb f --rnn_type gru`
+
+With those parameters, it takes about half an hour to train on a normal labtop.
+
+Then it begins the validation:
+```
+05/27/2017 08:17:00 AM: [ Running validation... ]
+05/27/2017 08:25:24 AM: [valid] iter = 2 | EM = 0.0191 | F1 = 0.0717 | exs = 3036
+05/27/2017 08:25:24 AM: [ Done. Time = 504.57 (s) ]
+```
+The result is very modest.
 
 You can also feed the word embeddings you get from spacy or fasttext to a machine learning lib like Theano or TensorFlow.
 
