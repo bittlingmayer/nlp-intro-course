@@ -117,9 +117,12 @@ Save this as `preproc.py`.
 #### 2. Word embeddings
 Modify [parlai/agents/ir_baseline/agents.py](https://github.com/facebookresearch/ParlAI/blob/master/parlai/agents/ir_baseline/agents.py) to replace TFIDF with word embeddings  
 
-See the function `rank_candidates`
+See the function `act`.  The current code just gets the representation of the query (`build_query_representation`), and iterates through aaall the candidates (`rank_candidates`), and compares the representation (`score_match`).
+
+It also removes [stopwords](https://en.wikipedia.org/wiki/Stop_words) that may not add much meaning.
 
 For example, use spacy for good pre-trained vectors:  
+
 ```
 import spacy
 nlp = spacy.load('en')
