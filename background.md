@@ -27,7 +27,7 @@ Peter Norvig has explained in depth many potential improvements on his page.
 
 Submit your code as a Kaggle Kernel to the Spelling dataset
 
-Example:  https://www.kaggle.com/bittlingmayer/spell-py
+Example:  kaggle.com/bittlingmayer/spell-py
 
 #### 1. Add a new Kernel  
 Open <a href="https://kaggle.com/bittlingmayer/spelling/" target="_blank">kaggle.com/bittlingmayer/spelling</a>  
