@@ -30,7 +30,7 @@ Submit your code as a Kaggle Kernel to the Spelling dataset
 Example:  https://www.kaggle.com/bittlingmayer/spell-py
 
 #### 1. Add a new Kernel  
-Open <a href="https://kaggle.com/bittlingmayer/spelling/" target="_blank">[kaggle.com/bittlingmayer/spelling]</a>
+Open <a href="https://kaggle.com/bittlingmayer/spelling/" target="_blank">kaggle.com/bittlingmayer/spelling</a>  
 Click *New Kernel*  
 Choose *Script* or *Notebook* according to your preference  
 Title it *spell.py*
