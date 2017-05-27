@@ -47,7 +47,7 @@ README.md
 ```
 If you chose to use python, in that case `preproc.py` and/or `sentiment.py`.  And you made a good choice.
 
-### 2. The 
+### 2. The Scripts
 
 The preprocessing script should take a data file:  
 ```
