@@ -202,6 +202,14 @@ Half a day later, at iteration 40:
 ```
 As you see, each iteration takes about 10 minutes.
 
+Almost two days later, it finally finished:
+
+```
+05/28/2017 04:03:38 AM: [ Running validation... ]
+05/28/2017 04:12:14 AM: [valid] iter = 68 | EM = 0.1472 | F1 = 0.2630 | exs = 3036
+05/28/2017 04:12:14 AM: [ Done. Time = 516.05 (s) ]
+```
+
 It is not required to use ParlAI, it is recommended because it makes it easier for some tasks.  You can also feed the word embeddings you get from spacy or fasttext to a machine learning lib like Theano or TensorFlow.
 
 ### Submission Instructions
