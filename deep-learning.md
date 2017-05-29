@@ -56,6 +56,8 @@ If you chose to use python, in that case `preproc.py` and/or `sentiment.py`.  An
 
 It is important to do this precisely because the evaluation will be automated.
 
+Do not include the big datafiles or fasttext.
+
 The preprocessing script should take a data file:  
 ```
 preproc.sh <some data file in the fastText format>
