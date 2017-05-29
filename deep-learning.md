@@ -71,7 +71,7 @@ The sentiment script should take the training and test file as arguments:
 ```
 sentiment.sh <training file> <test file>
 ```
-And it should train fastText with the parameters that you have chosen, and then test it.
+And it should train fastText with the parameters that you have chosen, and then test it.  The code can assume that the fasttext script will be in the same directory.
 
 For example, if you ran with 300 dimensions and a learning rate of 0.7:
 ```
