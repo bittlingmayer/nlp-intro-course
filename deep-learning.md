@@ -54,12 +54,20 @@ If you chose to use python, in that case `preproc.py` and/or `sentiment.py`.  An
 
 ### 2. The Scripts
 
+It is important to do this precisely because the evaluation will be automated.
+
 The preprocessing script should take a data file:  
 ```
 preproc.sh <some data file in the fastText format>
 ```
+It should print out the preprocessed version.  (It should *not* write out a new file.)
 
-The sentiment script should take the training and test file:  
+For example, if you lowercased all text:
+```
+tr '[:upper:]' '[:lower:]' < "$1"
+```
+
+The sentiment script should take the training and test file as arguments:  
 ```
 sentiment.sh <training file> <test file>
 ```
@@ -70,6 +78,16 @@ For example, if you ran with 300 dimensions and a learning rate of 0.7:
 ./fasttext supervised -input "@1" -output model_amzn -dim 300 -lr 0.7
 ./fasttext test -model model_amzn.bin "@2"
 ```
+
+Note the automated evaluation script will be like this:
+
+```
+preproc.sh <path>/train.ft.txt > <path>/train.ft.txt.preproc
+preproc.sh <path>/test.ft.txt > <path>/test.ft.txt.preproc
+
+sentiment.sh <path>/train.ft.txt.preproc <path>/test.ft.txt.preproc
+```
+So please make sure that your scripts are as in the example.
 
 ### 3. Explain your approach
 
