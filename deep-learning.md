@@ -75,8 +75,8 @@ And it should train fastText with the parameters that you have chosen, and then 
 
 For example, if you ran with 300 dimensions and a learning rate of 0.7:
 ```
-./fasttext supervised -input "@1" -output model_amzn -dim 300 -lr 0.7
-./fasttext test -model model_amzn.bin "@2"
+./fasttext supervised -input "$1" -output model_amzn -dim 300 -lr 0.7
+./fasttext test -model model_amzn.bin "$2"
 ```
 
 Note the automated evaluation script will be like this:
